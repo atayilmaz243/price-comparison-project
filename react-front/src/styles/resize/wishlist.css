@@ -1,0 +1,35 @@
+
+@media (max-width: 600px)
+{
+  .wish {
+    width: 80vw;  
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 500px)
+{
+  .wish-flexbox {
+    flex-direction: column;
+  }
+  .wish-item-price {
+    width: 100%;
+    margin:0;
+    box-sizing: border-box;
+    flex-direction: row;
+    padding-left: 20px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: space-between
+  }
+  .wish-label-a213 {
+    width: 70px;
+  }
+
+  .wish-item-buttons {
+    margin:0;
+    margin-right: 20px;
+  }
+
+}

@@ -1,0 +1,25 @@
+
+
+@media (max-width : 560px)
+{
+  #top-container{
+    height: 180px;
+    flex-direction: column;
+    gap:10px;
+    min-width: none;
+  }
+
+  .top-logo {
+    margin-left: 0;
+  }
+
+  .top-search-container {
+    height: 40px;
+    min-width: 300px;
+    width: 80%;
+  }
+
+  body {
+    margin-top: 180px;
+  }
+}

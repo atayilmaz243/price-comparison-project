@@ -1,0 +1,198 @@
+
+.filter-container{ 
+  /* background-color: white; */
+  position: absolute;
+  right : -10px;
+  width: 210px;
+  margin-top: 13px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  z-index: 101;
+}
+
+.filters-label {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+
+.filter-price-range-inputs {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  height: 30px;
+
+}
+
+
+.filter-price-range-input-min {
+  width: 60px;
+  height: 30px;
+  background-color: hsl(0, 0%, 89%);
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.filter-price-range-input-max {
+  width: 60px;
+  height: 30px;
+  background-color: hsl(0, 0%, 89%);
+  border: none;
+  border-radius: 5px;
+  padding: 0;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.filter-price-range-input-min:focus,
+.filter-price-range-input-max:focus {
+  outline: none;
+
+}
+
+.filter-price-range-input-min::placeholder,
+.filter-price-range-input-max::placeholder{
+  padding-right: 10px;
+  text-align: center;
+  line-height: normal;
+}
+
+.filter-price-range {
+  position: relative;
+  background-color: white;
+  box-sizing: border-box;
+  padding:10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 100%;
+  z-index: 3;
+}
+
+.filter-price-range-submit-button {
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+  border-radius: 15px;
+}
+
+.filter-price-range-submit-button:hover {
+  cursor: pointer;
+  background-color: hsl(0, 0%, 89%);
+
+}
+
+.filter-price-range-submit-button svg{
+  height: 70%;
+  width: 70%;
+}
+
+.filter-company-container {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+.filter-company-item {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+
+}
+
+.filter-co-item-button {
+  width: 20px;
+  height: 20px;
+  background-color: hsl(0, 0%, 89%);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filter-co-item-button svg{
+  width: 80%;
+  height: 80%;
+}
+
+.filter-co-item-button:hover {
+  cursor: pointer;
+}
+
+
+.filter-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  z-index: 100;
+}
+
+.filter-logo svg {
+  width: 80%;
+  height: 80%;
+}
+
+.filter-logo:hover {
+  cursor: pointer;
+  background-color: rgb(150, 150, 150,0.5);
+}
+
+
+.filters {
+  position: absolute;
+  left: -25px;
+
+  margin:0;
+  padding:0;
+}
+
+@media (max-width : 1300px) 
+{
+  .filters {
+    left: auto;
+    right: 0px;
+  }
+
+  .filter-container {
+    top : 40px;
+    right: 50px;
+  }
+
+
+}
+
+.black-background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(0, 0%, 89%);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;;
+  border-radius: 6px;
+  z-index: 2;
+}

@@ -1,0 +1,27 @@
+
+
+@media (max-width: 850px) 
+{
+  .searchpage-item-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) 
+{
+  .searchpage-item-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width : 720px) {
+  .searchpage-item-grid {
+    gap: 10px;
+  }
+}
+
+@media (max-width : 470px) {
+  .searchpage-item-grid {
+    gap: 0px;
+  }
+}

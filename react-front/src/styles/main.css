@@ -1,0 +1,39 @@
+.main-body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  width: 770px;
+  align-items:center;
+
+}
+
+.main-bookmark {
+  position: absolute;
+  /* bottom: 12px;
+  right: 20px; */
+  top:5px;
+  right: 5px;
+  width: 25px;
+  height: 25px;
+  z-index: 900;
+}
+
+.main-bookmark svg {
+  width: 100%;
+  height: 100%;
+}
+
+.main-bookmark:hover {
+  cursor: pointer;
+}
+
+
+.home-container{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

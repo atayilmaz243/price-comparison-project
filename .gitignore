@@ -1,0 +1,5 @@
+/react-front/.env
+/react-front/src/firebase.js
+/react-front/node_modules
+/node-back-end/Dockerfile
+/node-back-end/firebase.js

@@ -1,0 +1,169 @@
+
+
+.user-login {
+  display:flex;
+  align-items: center;
+  font-weight: 300;
+  width: 80px;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+
+}
+
+.user-logo:hover {
+  cursor: pointer;
+}
+
+
+
+.login {
+  position: fixed;
+  z-index: 1100;
+  top:0;
+  right:0;
+  left: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0,0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  top: 130px;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: white;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+}
+
+.login-line {
+  width: 50%;
+  height: 2px;
+  background-color: hsl(0, 0%, 89%);
+  border-radius: 1px;
+}
+
+
+.login-google {
+  font-weight: 300;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: hsl(0, 0%, 89%);
+  display: flex;
+  align-items: center;
+}
+
+.login-google:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.login-google img{
+  height: 30px;
+  width: 50px;
+  object-fit: contain;
+}
+
+.login-close:hover {
+  cursor: pointer;
+}
+
+
+.login-close svg{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 20px;
+  height: 20px;
+
+}
+
+.user-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.user-logo svg {
+  width: 26px;
+  height: 26px;
+}
+
+.user-logo img
+{
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+  object-fit: contain;
+  position: relative;
+}
+
+.user-options 
+{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  top: 120%;
+  right: 0px;
+  width: 150px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.user-option {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+
+}
+
+.user-option svg {
+  width: 30px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+  margin-right: 5px;
+}
+
+.user-option:hover {
+  background-color: hsl(0, 0%, 89%);
+}
+
+.login-p {
+  margin:0;
+  padding:0;
+  white-space : nowrap;
+}
+
+.login-p:hover {
+  cursor: pointer;
+}
